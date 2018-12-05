@@ -8,6 +8,7 @@ public class HelloDevops {
 
 	@RequestMapping("/rest/hello")
 	public String helloDev() {
+		String st = "Sreekanth";
 		return "Hello Devops ";
 	}
 }
